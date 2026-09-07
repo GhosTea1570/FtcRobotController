@@ -1,12 +1,14 @@
 package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
+import com.qualcomm.robotcore.eventloop.opmode.Disabled;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 // In the future, this program will be connected onto the control hub and be a device that has access to the program
 
 // @TeleOp and @Autonomous are needed to decipher between the two types of sessions and commands
+@Disabled
 @TeleOp // Need this or code doesn't work
 public class RandoCode extends OpMode { //  extends OpMode adds more for the program
 
