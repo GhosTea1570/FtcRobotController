@@ -14,7 +14,7 @@ public class IfPractice extends OpMode {
 
     @Override
     public void loop(){
-        double motorSpeed = gamepad1.left_stick_y
+        double motorSpeed = gamepad1.left_stick_y;
         boolean aButton = gamepad1.a; // press TRUE, depress FALSE
         double leftY = gamepad1.left_stick_y;
 
